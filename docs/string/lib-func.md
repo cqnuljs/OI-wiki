@@ -2,7 +2,7 @@
 
 ## C 标准库
 
-C 标准库是在对字符数组进行操作
+C 标准库是在对字符数组进行操作。
 
 ###  `strlen` 
 
@@ -42,9 +42,15 @@ C 标准库是在对字符数组进行操作
 
 ###  `strstr` 
 
+`char *strstr(char *str1, const char *str2)` ： 若 `str2` 是 `str1` 的子串，则返回 `str2` 在 `str1` 的首次出现的地址；如果 `str2` 不是 `str1` 的子串，则返回 `NULL` 。
+
 ###  `strchr` 
 
+`char *strchr( const char *str, int ch )` : 返回 `ch` 在 `str` 中首次出现的地址；如果在 `str` 中没有找到 `ch` 则返回 `NULL`。
+
 ###  `strrchr` 
+
+`char *strrchr( const char *str, int ch )` ： 返回 `ch` 在 `str` 中最后出现的地址；如果在 `str` 中没有找到 `ch` 则返回 `NULL`。
 
 ## C++ 标准库
 
